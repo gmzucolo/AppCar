@@ -25,3 +25,9 @@
 .divider {
   border-left: solid #808080;
 }
+
+.nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
