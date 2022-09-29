@@ -1,0 +1,27 @@
+.selector-for-some-widget {
+  box-sizing: content-box;
+}
+
+.pink {
+  background-color: #dc143c;
+}
+
+.blue {
+  background-color: #003;
+  font-size: 6rem;
+}
+
+.div {
+  width: 100px;
+  height: 50px;
+}
+
+.stats {
+  font-size: 16px
+  color: #ff000;
+  line-height: 100%
+}
+
+.divider {
+  border-left: solid #808080;
+}
