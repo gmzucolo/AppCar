@@ -16,6 +16,7 @@
     <!-- Minha CSS -->
     <link rel="stylesheet" href="./css/style.css" />
     <title>AppCar</title>
+
     <!-- Google Fonts -->
     <link
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
@@ -25,36 +26,48 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Background -->
     <style>
       .bac {
-        background: url('./assets/background-main.jpg') no-repeat center center
-          fixed;
+        background: url('./assets/background-car-black.jpg') no-repeat center
+          center fixed;
+        display: block;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100vw;
         height: 100vh;
       }
     </style>
   </head>
   <body>
-    <h1>AppCar</h1>
-
     <!-- HEADER -->
-    <header>
-      
-    </header>
+    <header></header>
 
     <!-- MAIN -->
     <section>
-      <div class="container-fluid">
-        <div
-          class="row text-center align-content-start justify-content-center"
-          style="color: black"
-        >
-          <div class="card card-opacity col bg-light" style="width: 18rem">
+      <div class="container-fluid bac">
+        <div class="row grid-card card-person bg-light" style="color: black">
+          <div class="card col-md-3">
             <div class="card-body">
               <span class="material-symbols-outlined md-72"> door_open </span>
               <p class="card-text">Portão</p>
             </div>
           </div>
-          <div class="card card-opacity col bg-light" style="width: 18rem">
+          <div class="card col-md-3">
             <div class="card-body">
               <span class="material-symbols-outlined md-72">
                 wb_incandescent
@@ -62,19 +75,19 @@
               <p class="card-text">Luzes</p>
             </div>
           </div>
-          <div class="card card-opacity col bg-light" style="width: 18rem">
+          <div class="card col-md-3">
             <div class="card-body">
               <span class="material-symbols-outlined md-72"> ac_unit </span>
               <p class="card-text">Climatizar</p>
             </div>
           </div>
-          <div class="card card-opacity col bg-light" style="width: 18rem">
+          <div class="card col-md-3">
             <div class="card-body">
               <span class="material-symbols-outlined md-72"> queue_music </span>
               <p class="card-text">Playlist</p>
             </div>
           </div>
-          <div class="card card-opacity col bg-light" style="width: 18rem">
+          <div class="card col-md-3">
             <div class="card-body">
               <span class="material-symbols-outlined md-72">
                 cleaning_services
@@ -82,40 +95,7 @@
               <p class="card-text">Limpeza</p>
             </div>
           </div>
-        </div>
-      </div>
-      <div class="container-fluid">
-        <div
-          class="row text-center align-content-start justify-content-center"
-          style="color: black"
-        >
-          <div class="card card-opacity col bg-light" style="width: 18rem">
-            <div class="card-body">
-              <span class="material-symbols-outlined md-72"> door_open </span>
-              <p class="card-text">Portão</p>
-            </div>
-          </div>
-          <div class="card card-opacity col bg-light" style="width: 18rem">
-            <div class="card-body">
-              <span class="material-symbols-outlined md-72">
-                wb_incandescent
-              </span>
-              <p class="card-text">Luzes</p>
-            </div>
-          </div>
-          <div class="card card-opacity col bg-light" style="width: 18rem">
-            <div class="card-body">
-              <span class="material-symbols-outlined md-72"> ac_unit </span>
-              <p class="card-text">Climatizar</p>
-            </div>
-          </div>
-          <div class="card card-opacity col bg-light" style="width: 18rem">
-            <div class="card-body">
-              <span class="material-symbols-outlined md-72"> queue_music </span>
-              <p class="card-text">Playlist</p>
-            </div>
-          </div>
-          <div class="card card-opacity col bg-light" style="width: 18rem">
+          <div class="card col-md-3">
             <div class="card-body">
               <span class="material-symbols-outlined md-72">
                 cleaning_services
@@ -123,40 +103,79 @@
               <p class="card-text">Limpeza</p>
             </div>
           </div>
-        </div>
-      </div>
-      <div class="container-fluid">
-        <div
-          class="row text-center align-content-start justify-content-center"
-          style="color: black"
-        >
-          <div class="card card-opacity col bg-light" style="width: 18rem">
-            <div class="card-body">
-              <span class="material-symbols-outlined md-72"> door_open </span>
-              <p class="card-text">Portão</p>
-            </div>
-          </div>
-          <div class="card card-opacity col bg-light" style="width: 18rem">
+          <div class="card col-md-3">
             <div class="card-body">
               <span class="material-symbols-outlined md-72">
-                wb_incandescent
+                cleaning_services
               </span>
-              <p class="card-text">Luzes</p>
+              <p class="card-text">Limpeza</p>
             </div>
           </div>
-          <div class="card card-opacity col bg-light" style="width: 18rem">
+          <div class="card col-md-3">
             <div class="card-body">
-              <span class="material-symbols-outlined md-72"> ac_unit </span>
-              <p class="card-text">Climatizar</p>
+              <span class="material-symbols-outlined md-72">
+                cleaning_services
+              </span>
+              <p class="card-text">Limpeza</p>
             </div>
           </div>
-          <div class="card card-opacity col bg-light" style="width: 18rem">
+          <div class="card col-md-3">
             <div class="card-body">
-              <span class="material-symbols-outlined md-72"> queue_music </span>
-              <p class="card-text">Playlist</p>
+              <span class="material-symbols-outlined md-72">
+                cleaning_services
+              </span>
+              <p class="card-text">Limpeza</p>
             </div>
           </div>
-          <div class="card card-opacity col bg-light" style="width: 18rem">
+          <div class="card col-md-3">
+            <div class="card-body">
+              <span class="material-symbols-outlined md-72">
+                cleaning_services
+              </span>
+              <p class="card-text">Limpeza</p>
+            </div>
+          </div>
+          <div class="card col-md-3">
+            <div class="card-body">
+              <span class="material-symbols-outlined md-72">
+                cleaning_services
+              </span>
+              <p class="card-text">Limpeza</p>
+            </div>
+          </div>
+          <div class="card col-md-3">
+            <div class="card-body">
+              <span class="material-symbols-outlined md-72">
+                cleaning_services
+              </span>
+              <p class="card-text">Limpeza</p>
+            </div>
+          </div>
+          <div class="card col-md-3">
+            <div class="card-body">
+              <span class="material-symbols-outlined md-72">
+                cleaning_services
+              </span>
+              <p class="card-text">Limpeza</p>
+            </div>
+          </div>
+          <div class="card col-md-3">
+            <div class="card-body">
+              <span class="material-symbols-outlined md-72">
+                cleaning_services
+              </span>
+              <p class="card-text">Limpeza</p>
+            </div>
+          </div>
+          <div class="card col-md-3">
+            <div class="card-body">
+              <span class="material-symbols-outlined md-72">
+                cleaning_services
+              </span>
+              <p class="card-text">Limpeza</p>
+            </div>
+          </div>
+          <div class="card col-md-3">
             <div class="card-body">
               <span class="material-symbols-outlined md-72">
                 cleaning_services
@@ -170,8 +189,11 @@
 
     <!-- FOOTER -->
     <footer>
-      <div class="navbar fixed-bottom nav-pills nav-fill">
-        <div class="row navbar-person" style="color: #a9a9a9">
+      <div class="">
+        <div
+          class="navbar fixed-bottom nav-pills nav-fill row navbar-person"
+          style="color: #a9a9a9"
+        >
           <div class="col-md-2 mt-2">
             <span class="material-symbols-outlined md-72"> music_note </span>
             <h2>Música</h2>
