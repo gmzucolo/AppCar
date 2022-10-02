@@ -27,6 +27,17 @@ body {
   overflow: overlay;
 }
 
+.header-person {
+  color: #e7e7e7;
+  margin: 0.1rem;
+  background-color: #0d0d0d;
+  text-align: center;
+}
+
+#last-item {
+  text-align: end;
+}
+
 /*======== SECTION ========*/
 
 section {
@@ -126,10 +137,10 @@ section {
 }
 
 .grid-card {
-  margin-right: 1rem;
-  margin-left: 1rem;
-  margin-top: 8rem;
-  margin-bottom: 8rem;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
 }
 
 .card-person {
