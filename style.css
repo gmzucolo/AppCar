@@ -6,7 +6,6 @@
 }
 
 :root {
-  --nav-height: 7.2rem;
   font-size: 62.5%; /* 1rem = 10px */
 }
 
@@ -129,6 +128,8 @@ section {
 .grid-card {
   margin-right: 1rem;
   margin-left: 1rem;
+  margin-top: 8rem;
+  margin-bottom: 8rem;
 }
 
 .card-person {
